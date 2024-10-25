@@ -10,11 +10,6 @@ type usuario struct {
 	endereco endereco
 }
 
-type endereco struct {
-	logradouro string
-	numero     uint8
-}
-
 func main() {
 
 	var u usuario
