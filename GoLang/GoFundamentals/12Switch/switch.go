@@ -29,8 +29,10 @@ func diaDaSemana2(numero int) string {
 	switch {
 	case numero == 1:
 		diaDaSemana = "Domingo"
+		fallthrough
 	case numero == 2:
 		diaDaSemana = "Segunda-Feira"
+		fallthrough
 	case numero == 3:
 		diaDaSemana = "Terça-Feira"
 	case numero == 4:
